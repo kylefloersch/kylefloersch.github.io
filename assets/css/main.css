@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+@import url("//use.fontawesome.com/releases/v5.6.1/css/all.css'");
 
 /*
 	Directive by HTML5 UP
@@ -2710,7 +2711,7 @@ input, select, textarea {
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
-		color: rgba(255, 255, 255, 0.8);
+		color: rgba(255, 255, 255, 0.9);
 		padding: 10em 0 20em 0;
 		position: relative;
 		text-align: center;
@@ -2776,7 +2777,7 @@ input, select, textarea {
 			width: 2.35em;
 		}
 
-			#header .logo.fa-paper-plane-o:before {
+			#header .logo.fa-terminal-o:before {
 				left: -0.075em;
 				position: relative;
 			}
