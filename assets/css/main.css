@@ -32,6 +32,10 @@ footer, header, hgroup, menu, nav, section {
 @font-face {
 		font-family: handwriting;
 		src: url("handwriting-regular");
+		src: url('https://kylefloersch.github.io/assets/css/handwriting-regular-webfont.woff2') format('woff2'),
+         url('https://kylefloersch.github.io/assets/css/handwriting-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 	}
 body {
 	line-height: 1;
