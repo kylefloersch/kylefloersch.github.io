@@ -10,14 +10,29 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+
+
+
 	</head>
 	<body class="is-preload">
+		<div class="topnav" id="myTopnav">
+	    <a class="btn active" href="#header">KYLE</a>
+	    <a class="btn" href="#about">About</a>
+	    <a class="btn" href="#experience">My Work</a>
+			<a class="btn" href="resume.pdf">Resume</a>
+	    <a class="btn" href="mailto:floersch@umich.edu">Contact</a>
+	    <a href="javascript:void(0);" class="icon" onclick="showNavigationItems()">
+	      <ion-icon name="menu-outline"></ion-icon>
+    </a>
+  </div>
+
 
 		<!-- Header -->
 			<div id="header">
 				<span class="class logo fa fa-terminal"></span>
-				<h1 style="font-family: handwriting">Kyle Floersch</h1>
-				<p>Computer Science & Business at The University of Michigan</p>
+				<h1 style="font-family: handwriting"> Kyle Floersch </h1>
+				<p> Computer Science & Business at The University of Michigan </p>
 			</div>
 
 		<!-- Main -->
@@ -35,7 +50,7 @@
 					-->
 
 				</header>
-				<div class="box container containerBio" >
+				<div class="box container containerBio" id="about">
 					<header>
 						<h2 >Hello!</h2>
 					</header>
@@ -49,9 +64,10 @@
 								change the world.
 						</p>
 					</section>
-
 				</div>
-				<div class="box container">
+
+
+				<div class="box container containerHead">
 					<header>
 						<h2>Some of my work:</h2>
 					</header>
@@ -274,7 +290,7 @@
 					</form>
 
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.linkedin.com/in/kylefloersch/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="https://github.com/kylefloersch" class="icon brands fa-github"><span class="label">Github</span></a></li>
@@ -294,6 +310,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
 
 	</body>
 </html>
