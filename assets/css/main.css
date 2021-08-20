@@ -2744,6 +2744,7 @@ input, select, textarea {
 			padding: 3.5em;
 			vertical-align: middle;
 			width: 48%;
+			margin-top: -50px;
 		}
 
 			.feature .content h3 {
